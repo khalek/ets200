@@ -74,6 +74,16 @@ public class Triangle
 	}
 
 	/**
+	 * Gets the height of the triangle.
+	 */
+	public double getHeigth() {
+		if (!classify().equals(P_RIGHTANGLED))
+			return -1.0;
+
+		return Math.sqrt(Math.pow(side3,2) - Math.pow(side1,2));
+	}
+
+	/**
 	 * Gets the area of the triangle.
 	 * @return area of the triangle, -1.0 if triangle is impossible.
 	 */
