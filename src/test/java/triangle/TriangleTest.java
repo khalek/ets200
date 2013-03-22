@@ -108,7 +108,7 @@ public class TriangleTest
 	@Test
 	public void testClassifyEqi()
 	{
-		assertEquals("Should return 'equilateral'", "equilateral", eqiliteralTriangle.classify());
+		assertEquals("Should return 'equilateral'", "equilaterall", eqiliteralTriangle.classify());
 	}
 	@Test
 	public void testClassifyEqiUB()
