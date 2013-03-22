@@ -72,7 +72,7 @@ public class TriangleTest
 	public void testSetSideLengths()
 	{
 		rightAngledTriangle.setSideLengths(100, 200, 250);
-		assertEquals("Should return '100,200,250'", "100,190,250", rightAngledTriangle.getSideLengths());
+		assertEquals("Should return '100,200,250'", "100,200,250", rightAngledTriangle.getSideLengths());
 	}
 	@Test
 	public void testGetPerimiter()
@@ -108,7 +108,7 @@ public class TriangleTest
 	@Test
 	public void testClassifyEqi()
 	{
-		assertEquals("Should return 'equilateral'", "equilaterall", eqiliteralTriangle.classify());
+		assertEquals("Should return 'equilateral'", "equilateral", eqiliteralTriangle.classify());
 	}
 	@Test
 	public void testClassifyEqiUB()
