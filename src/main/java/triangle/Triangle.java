@@ -26,6 +26,7 @@ public class Triangle
 	private static final String P_RIGHTANGLED = "right-angled";
 	private static final String P_SCALENE     = "scalene";
 	private static final String P_IMPOSSIBLE  = "impossible";
+	private static final String apan = "Hej apan";
 
 	/**
 	 * Constuctor (without error checking)
